@@ -1,7 +1,7 @@
 import os
 import csv
 
-py_poll = os.path.join("PyPoll", "election_data.csv")
+py_poll = "election_data.csv"
 
 total = 0
 
