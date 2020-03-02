@@ -3,7 +3,7 @@ In this repository I am using a bank data csv and an election poll csv.
 Using the bank data csv I am analyzing the company's financial records and creating a script that calculates:
   (Total number of months included in the dataset)
   (Net total amount of "Profit/Losses" over the entire period)
-  (Average of the changes in "Profit/Losses" over the entire period
+  (Average of the changes in "Profit/Losses" over the entire period)
   (Greatest increase in profits (date and amount) over the entire period)
   (Greatest decrease in losses (date and amount) over the entire period)
   
