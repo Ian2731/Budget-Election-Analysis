@@ -1,6 +1,8 @@
+# Dependencies
 import os
 import csv
 
+# Calling CSV
 budget_data = "budget_data.csv"
 
 months = []
