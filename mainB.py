@@ -5,7 +5,7 @@ import csv
 # Calling CSV
 budget_data = "budget_data.csv"
 
-# Creating empty lists to store data
+# Creating dictionaries to store data
 months = []
 
 profitloss = []
@@ -34,7 +34,7 @@ with open(budget_data, newline="") as csvfile:
         min_change = min(profitchange)
         min_date = str(months[profitchange.index(min(profitchange))+ 1]) 
     
-
+# printing out data in readable format
 print("Financial Analysis")
 print("--------------------------------")
 print(f"Total Months: {len(months)}")
