@@ -5,6 +5,7 @@ import csv
 # Calling CSV
 budget_data = "budget_data.csv"
 
+# Creating empty lists to store data
 months = []
 
 profitloss = []
@@ -13,7 +14,7 @@ profitchange = []
 
 change_list = []
 
-
+# Reading the CSV to read
 with open(budget_data, newline="") as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
 
