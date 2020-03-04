@@ -14,7 +14,7 @@ profitchange = []
 
 change_list = []
 
-# Reading the CSV to read
+# Reading the CSV
 with open(budget_data, newline="") as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
 
